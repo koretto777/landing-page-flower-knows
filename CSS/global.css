@@ -1,0 +1,52 @@
+/* 
+Estilos Globales 
+
+Aquí vamos a definir estilos variables que se reutilicen en todo el sitio
+
+*/
+
+:root {
+  --primary-color: #8EAED7; 
+  --secondary-color: #E8989A;
+  --dark-color: #3C6D9F; 
+  --light-color: #FFFFFF; 
+  --gray-color: #B4B4B4; 
+  
+  --font-primary: "Montserrat", sans-serif; 
+  --font-secondary: "Palatino Linotype", sans-serif; 
+  
+  --space-normal: 24px; 
+  --space-medium: 32px; 
+  --space-small: 16px;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--gray-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--dark-color);
+}
+
+/* buttons */
+
+.button-primary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-small);
+  padding: var(--space-small) var(--space-normal); 
+  background-color: var(--light-color);
+  color: var(--gray-color);
+  border-radius: 32px; 
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+  color: var(--light-color);
+  background-color: var(--secondary-color);
+}

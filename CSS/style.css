@@ -1,0 +1,48 @@
+/* 
+Estilos Personalizados
+
+Aquí vamos a estilear todas las secciones, sus contenidos y el responsive. 
+*/
+
+@font-face {
+  font-family: "Palatino Linotype";
+  src: url("../Landing-Page-Flower-Knows/assets/fonts/palatinolinotype_roman.ttf") format("opentype");
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Palatino Linotype", sans-serif;
+}
+
+/* header */
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-normal);
+}
+
+.navbar-menu {
+  display: flex;
+  gap: var(--space-medium); 
+}
+
+.navbar-menu a {
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+}
+
+.navbar-menu a:hover {
+  color: var(--dark-color);
+}
