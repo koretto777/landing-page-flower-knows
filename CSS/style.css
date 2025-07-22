@@ -46,3 +46,40 @@ h1 {
 .navbar-menu a:hover {
   color: var(--dark-color);
 }
+
+/* Hero */
+
+.hero {
+  height: 100vh;
+  min-height: 700px;
+  background-image: url('../assets/images/background-hero.svg');
+  background-size: cover;
+  background-position: center;
+  color: var(--light-color);
+  font-family: var(--font-primary);
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero-content {
+  width: 40%;
+}
+
+.hero-content p {
+  font-size: 1.125rem;
+  margin-bottom: var(--space-medium);
+  max-width: 80%;
+}
+
+.hero-actions{
+  display: flex;
+  gap: var(--space-normal);
+  margin-bottom: var(--space-medium);
+}
+
+.hero-icons {
+  display: flex;
+  gap: var(--space-small);
+}
