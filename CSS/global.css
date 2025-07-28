@@ -30,6 +30,16 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--dark-color);
 }
 
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin-bottom: .8rem;
+}
+
 /* buttons */
 
 .button-primary {
@@ -68,4 +78,11 @@ h1, h2, h3, h4, h5, h6 {
 .button-secundary:hover {
   color: var(--light-color);
   background-color: var(--dark-color);
+}
+
+/* wrapper */
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
 }

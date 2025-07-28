@@ -36,6 +36,9 @@ h1 {
 .navbar-menu {
   display: flex;
   gap: var(--space-medium); 
+  background-color: var(--light-color);
+  border-radius: 2rem;
+  padding: var(--space-small) var(--space-normal);
 }
 
 .navbar-menu a {
@@ -65,6 +68,7 @@ h1 {
 
 .hero-content {
   width: 40%;
+  color: var(--dark-color);
 }
 
 .hero-content p {
@@ -82,4 +86,53 @@ h1 {
 .hero-icons {
   display: flex;
   gap: var(--space-small);
+}
+
+/* Characters */
+
+.characteres {
+ background-color: var(--light-color);
+}
+
+.characteres-header {
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+}
+
+.characteres-content {
+  display: flex;
+  align-items: center;
+}
+
+.characteres-thumbnails {
+  width: 50%;
+}
+
+.thumbnail-item {
+  cursor: pointer;
+  filter: brightness(0.6);
+  transition: filter .3s ease;
+}
+
+.thumbnail-item:hover {
+  filter: brightness(1);
+}
+
+.characteres-showcase {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-medium);
+}
+
+.character-info {
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.thumbnails-list {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: var(--space-medium);
 }
