@@ -11,6 +11,8 @@ Aquí vamos a definir estilos variables que se reutilicen en todo el sitio
   --dark-color: #3C6D9F; 
   --light-color: #FFFFFF; 
   --gray-color: #B4B4B4; 
+
+  --dark-color-transparent: #3c6e9f60;
   
   --font-primary: "Montserrat", sans-serif; 
   --font-secondary: "Palatino Linotype", sans-serif; 
