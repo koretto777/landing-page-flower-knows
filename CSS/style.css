@@ -204,3 +204,11 @@ h1 {
 .carousel-controls span {
   font-size: 3rem;
 }
+
+/* about */
+
+.about {
+  background-image: url('../assets/images/developer.png');
+  background-size: cover;
+  background-position: center;
+}
