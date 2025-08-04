@@ -17,9 +17,19 @@ Aquí vamos a definir estilos variables que se reutilicen en todo el sitio
   --font-primary: "Montserrat", sans-serif; 
   --font-secondary: "Palatino Linotype", sans-serif; 
   
+  --space-small: 16px;
   --space-normal: 24px; 
   --space-medium: 32px; 
-  --space-small: 16px;
+  --space-large:48px;
+  --space-xl: 56px;
+  --space-2xl: 64px;
+
+  /* header height for scroll offset */
+  --offset-height: 120px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -87,7 +97,8 @@ button {
 }
 
 section {
-  margin-bottom: var(--space-medium);
+  scroll-margin-top: var(--offset-height);
+  margin-bottom: var(--space-2xl);
 }
 
 /* wrapper */
